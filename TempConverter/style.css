@@ -1,0 +1,50 @@
+
+
+body{
+    background-color: rgb(236, 234, 234);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: hsla(0, 76%, 54%, 0.845);
+    font-weight: bold ;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    max-width: 50vw;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(145, 145, 145, 0.505);
+    margin-top: 50px;
+}
+
+#NumInput{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family:Helvetica, sans-serif;
+    border-radius: 10px;
+    font-weight: bold; 
+    margin-bottom: 10px;
+}   
+.selectOpsion {
+    margin: 15px;
+    font-size:  17px ;
+    
+}
+#submitbtn {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsla(190, 89%, 45%, 0.871);
+    color: white;
+    border: none;
+    transition: 0.25s ease;
+}
+#submitbtn:hover {
+    background-color: hsla(190, 100%, 50%, 0.921);
+}
+ 

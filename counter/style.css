@@ -1,0 +1,28 @@
+
+#countShow {
+    font-size: 10em;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(74, 73, 73);
+    margin: 50px auto ;
+}
+
+#allButton {
+    text-align: center ;
+}
+
+.buttons {
+    color: rgb(255, 255, 255);
+    background-color: hsl(39, 100%, 50%);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 20px ;
+    margin: 7px;
+    border-radius: 10px;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+.buttons:hover {
+    background-color: hsl(39, 100%, 42%);
+}
