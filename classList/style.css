@@ -11,8 +11,12 @@
 }
 
 .hover {
-    box-shadow: 0 0 10px  hsl(0, 0%, 7% 20%);
+    box-shadow: 0 0 15px hsl(0, 0%, 50%);
     font-style: italic;
     background-color: aqua;
+}
+
+.disabled  {
+    background-color: pink;
 
 }

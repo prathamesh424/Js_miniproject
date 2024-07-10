@@ -6,7 +6,7 @@ function appendToDisplay (input ) {
 
  }
 
-function  claculate (){
+function claculate (){
     try {
         display.value = eval(display.value);
     } catch (error) {

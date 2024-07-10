@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whetherForm {
+    margin: 20px;
+}
+
+.city{
+    padding: 7px;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    border: 2px solid hsl(0, 0%, 20% , 0.3);
+    border-radius: 7px;
+    margin: 10px;
+    width: 300px;
+}
+
+
+button[type ="submit"]{
+    padding: 10px ;
+    font-weight: bold; 
+    font-size: 1.5rem;
+    background-color: hsl(39, 100%, 55%);
+    border: none;
+    border-radius: 7px;
+    margin: 10px ;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+
+button[type ="submit"]:hover {
+    background-color: hsl(39, 100%, 65%);
+}
+
+
+.container {
+    padding: 50px;
+    background: linear-gradient(180deg , rgb(9, 255, 234) , rgb(47, 231, 255),  rgb(255, 195, 84) );
+    box-shadow: 2px 2px 7px ;
+    min-width: 10vh;
+    display: flex ;
+    flex-direction: column;  
+    border-radius: 10px; 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+.errordis {
+    color: hsl(0, 0%, 0% , 0.75);
+    font-weight: bold; 
+    font-size: 2.5rem;
+    
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.5rem ;
+    margin: 5px 0;
+}
+
+.cityname , .temp  {
+    font-size: 3.5rem;
+    font-weight: bold; 
+    color: hsl(0, 0%, 0% , 0.75);
+    margin-bottom: 25px;
+}
+
+.humidity {
+    font-weight: bold; 
+    margin-bottom: 25px; 
+}
+
+.descDisplay {
+    font-style: italic; 
+    font-weight: bold; 
+    font-size: 2rem ;
+}
+
+.emoji {
+    margin: 0; 
+    font-size: 7.5rem ;
+    margin-left: auto; 
+    margin-right: auto;
+}

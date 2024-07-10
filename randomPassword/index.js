@@ -30,9 +30,6 @@ function genPassword (len ,lower , upper , number , symbol)  {
     return passward ;
 
 }
-
-
-
 const Passward = genPassword (len , lower , upper ,number , symbol ) ;
 
 console.log (`Genrated passward : ${Passward}`) ;
